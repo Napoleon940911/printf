@@ -1,0 +1,7 @@
+# ignore files/folders
+
+# for test-on-CC2530
+/test-on-CC2530/Debug/
+/test-on-CC2530/settings/
+/test-on-CC2530/CC2530.dep
+/test-on-CC2530/CC2530.ewt
