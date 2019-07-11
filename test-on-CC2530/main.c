@@ -1,5 +1,7 @@
 #include <ioCC2530.h>
 
+#include "printf.h"
+
 #define BV(n)  (1 << (n))
 
 #define int8     signed char
