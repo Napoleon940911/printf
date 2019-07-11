@@ -57,6 +57,11 @@ void UART0_Send( uint8 *buffer, uint16 len )
   }
 }
 
+void _putchar(char character)
+{
+  UART0_Send( (uint8 *)&character, 1 );
+}
+
 void main( void )
 {
   ON_32MOSC();
