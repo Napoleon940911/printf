@@ -297,6 +297,7 @@
                 <option>
                     <name>CCDefines</name>
                     <state>PRINTF_INCLUDE_INT_TYPEDEF_H</state>
+                    <state>PRINTF_DISABLE_SUPPORT_EXPONENTIAL</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
