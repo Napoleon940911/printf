@@ -31,7 +31,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdbool.h>
-#include <stdint.h>
 
 #include "printf.h"
 
@@ -41,6 +40,8 @@
 // default: undefined
 #ifdef PRINTF_INCLUDE_INT_TYPEDEF_H
 #include "printf_int_typedef.h"
+#else
+#include <stdint.h>
 #endif
 
 
