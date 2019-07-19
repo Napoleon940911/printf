@@ -36,6 +36,14 @@
 #include "printf.h"
 
 
+// define this globally (e.g. gcc -DPRINTF_INCLUDE_INT_TYPEDEF_H ...) to include the
+// printf_int_typedef.h header file
+// default: undefined
+#ifdef PRINTF_INCLUDE_INT_TYPEDEF_H
+#include "printf_int_typedef.h"
+#endif
+
+
 // define this globally (e.g. gcc -DPRINTF_INCLUDE_CONFIG_H ...) to include the
 // printf_config.h header file
 // default: undefined
