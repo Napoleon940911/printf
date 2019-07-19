@@ -296,7 +296,7 @@
                 </option>
                 <option>
                     <name>CCDefines</name>
-                    <state></state>
+                    <state>PRINTF_INCLUDE_INT_TYPEDEF_H</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
